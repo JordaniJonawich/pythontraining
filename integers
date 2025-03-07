@@ -1,0 +1,15 @@
+n = int(input())
+
+
+total_sum = 0
+
+
+for _ in range(n):
+    value = int(input())
+    total_sum += value
+
+
+average = total_sum / n
+
+
+print(f"The average is: {average:.2f}")
